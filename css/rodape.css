@@ -1,0 +1,46 @@
+.rodape {
+  background: black;
+}
+.rodape-back {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 100px;
+  padding: 120px 20px 60px 20px;
+  align-items: center;
+}
+.disponibilidade {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #ccc;
+}
+.footer-direitos {
+  font-size: 1.125rem;
+  color: #ccc;
+  grid-column: 1/-1;
+}
+.contatos-footer li {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  color: white;
+}
+.contatos-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .rodape-back {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .disponibilidade{
+    max-width: 40ch;
+  }
+  .contatos-footer li{
+    font-size: 1.5rem;
+  }
+}
