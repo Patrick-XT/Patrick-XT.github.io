@@ -123,6 +123,11 @@
   top: 1000px;
   left: 350px;
 }
+@media (max-width: 1150px) {
+  .formacao-container .subtitulo {
+    font-size: 6.7rem;
+  }
+}
 @media (max-width: 1000px) {
   .formacao-container {
     grid-template-columns: 1fr;
@@ -174,8 +179,14 @@
     font-size: 0.675rem;
   }
 }
-@media (max-width: 1150px) {
+@media (max-width: 550px) {
   .formacao-container .subtitulo {
-    font-size: 6.7rem;
+    font-size: 4rem;
   }
 }
+@media (max-width: 350px) {
+  .formacao-container .subtitulo {
+    font-size: 3rem;
+  }
+}
+
