@@ -174,3 +174,8 @@
     font-size: 0.675rem;
   }
 }
+@media (max-width: 1150px) {
+  .formacao-container .subtitulo {
+    font-size: 6.7rem;
+  }
+}
